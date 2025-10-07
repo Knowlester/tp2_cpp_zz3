@@ -1,13 +1,20 @@
+// Polaire.hpp
+
 #ifndef POLAIRE_HPP
 #define POLAIRE_HPP
-#include <point.hpp>
 
-class Cartesien;
+#define _USE_MATH_DEFINES // Si nécessaire pour M_PI
+#include <cmath>         // Pour cos, sin, M_PI
+
+#include <point.hpp>     // Nécessaire pour l'héritage
+class Cartesien;         // Déclaration anticipée : suffisant pour la référence Cartesien&
 
 class Polaire : public Point{
     public:
-        double angle;    // en degrés
-        double distance; // distance radiale
+        int angle;    // en degrés
+        int distance; // distance radiale
+        Polaire(int x1, int y1) : angle(x1), distance(y1) {}
+
         Polaire(double a = 0.0, double d = 0.0)
             : angle(a), distance(d) {}
         double getAngle() const { return angle; }
@@ -20,10 +27,9 @@ class Polaire : public Point{
         void setAngle(double a=0.0) { angle = a;}
         void setDistance(double d=0.0) { distance = d;}
 
-        void convertir(Cartesien& c){
-            c.x = distance * cos(angle * M_PI /180);
-            c.y = distance * sin(angle * M_PI /180);
-        }
+        
+        // Déclaration de la méthode, PAS la définition
+        void convertir(Cartesien& c);
 };
 
 #endif
