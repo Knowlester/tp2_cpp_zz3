@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/common.dir/src/cartesien.cpp.o -c \"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/cartesien.cpp\"",
+  "file": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/cartesien.cpp",
+  "output": "CMakeFiles/common.dir/src/cartesien.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/common.dir/src/point.cpp.o -c \"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/point.cpp\"",
+  "file": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/point.cpp",
+  "output": "CMakeFiles/common.dir/src/point.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/common.dir/src/polaire.cpp.o -c \"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/polaire.cpp\"",
+  "file": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/polaire.cpp",
+  "output": "CMakeFiles/common.dir/src/polaire.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/build",
+  "command": "/usr/bin/c++   -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/test.dir/test/catch.cpp.o -c \"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/test/catch.cpp\"",
+  "file": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/test/catch.cpp",
+  "output": "CMakeFiles/test.dir/test/catch.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp2_nuage.dir/src/main_nuage.cpp.o -c \"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/main_nuage.cpp\"",
+  "file": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src/main_nuage.cpp",
+  "output": "CMakeFiles/tp2_nuage.dir/src/main_nuage.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp2_test.dir/test/tp2_test.cpp.o -c \"/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/test/tp2_test.cpp\"",
+  "file": "/mnt/c/Users/Léandre/Desktop/ZZ3/Méthodes outils dev logiciel (C++)/tp_2/test/tp2_test.cpp",
+  "output": "CMakeFiles/tp2_test.dir/test/tp2_test.cpp.o"
+}
+]
