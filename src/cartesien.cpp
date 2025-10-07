@@ -10,3 +10,8 @@ void Cartesien::convertir(Polaire& p){
     p.distance = hypot(x, y);
 }
 
+Polaire Cartesien::convertirToPolaire() {
+    double newAngle = atan2(y, x) * 180.0 / M_PI;
+    double newDistance = hypot(x, y);
+    return Polaire(newAngle, newDistance); 
+}

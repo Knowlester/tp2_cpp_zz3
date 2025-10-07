@@ -21,7 +21,7 @@ class Cartesien : public Point {
             stm << "(x=" << x << ";y=" << y <<")";
 
         }
-
+        Polaire convertirToPolaire();
         void setX(double a=0.0) { x = a;}
         void setY(double d=0.0) { y = d;}
 

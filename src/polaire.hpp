@@ -27,7 +27,8 @@ class Polaire : public Point{
         void setAngle(double a=0.0) { angle = a;}
         void setDistance(double d=0.0) { distance = d;}
 
-        
+        Cartesien convertirToCartesien();
+
         // Déclaration de la méthode, PAS la définition
         void convertir(Cartesien& c);
 };

@@ -33,9 +33,7 @@ public:
     size_type size() const {
         return points.size();
     }
-    //T centreDeGravite() const {
-    //    return CentreDeGravite<T>::calculer(*this);
-    //}
+    T barycentre_v1(const Nuage<T>& nuage) {};
 };
 
 #endif
