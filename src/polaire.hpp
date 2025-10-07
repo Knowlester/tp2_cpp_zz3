@@ -1,7 +1,8 @@
 #ifndef POLAIRE_HPP
 #define POLAIRE_HPP
 #include <point.hpp>
-#include <cartesien.hpp>
+
+class Cartesien;
 
 class Polaire : public Point{
     public:
@@ -19,7 +20,7 @@ class Polaire : public Point{
         void setAngle(double a=0.0) { angle = a;}
         void setDistance(double d=0.0) { distance = d;}
 
-        void convertir(Cartesien c){
+        void convertir(Cartesien& c){
             c.x = distance * cos(angle * M_PI /180);
             c.y = distance * sin(angle * M_PI /180);
         }
